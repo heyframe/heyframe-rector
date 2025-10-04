@@ -1,0 +1,33 @@
+<?php
+
+declare(strict_types=1);
+
+namespace HeyFrame\Rector\Set;
+
+final class HeyFrameSetList
+{
+    /**
+     * @var string
+     */
+    public const HEYFRAME_6_5_0 = __DIR__ . '/../../config/heyframe-6.5.0.php';
+
+    /**
+     * @var string
+     */
+    public const HEYFRAME_6_6_0 = __DIR__ . '/../../config/heyframe-6.6.0.php';
+
+    /**
+     * @var string
+     */
+    public const HEYFRAME_6_6_4 = __DIR__ . '/../../config/heyframe-6.6.4.php';
+
+    /**
+     * @var string
+     */
+    public const HEYFRAME_6_6_10 = __DIR__ . '/../../config/heyframe-6.6.10.php';
+
+    /**
+     * @var string
+     */
+    public const HEYFRAME_6_7_0 = __DIR__ . '/../../config/heyframe-6.7.0.php';
+}
